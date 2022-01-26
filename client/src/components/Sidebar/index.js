@@ -5,7 +5,7 @@ import './index.css';
 
 export const Nav = () => {
     return (
-        <nav>
+        <nav id="navigation-menu">
             <ul>
                 <a href="">About</a>
                 <a href="">Projects</a>
