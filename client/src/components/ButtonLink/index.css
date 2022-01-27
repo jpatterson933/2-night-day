@@ -1,0 +1,7 @@
+.button-link {
+    display: flex;
+    width: 56px;
+    box-shadow: 0 0 9px -2px black;
+    border: 1px solid black;
+    padding: 4px;
+}

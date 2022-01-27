@@ -2,13 +2,20 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, 1fr);
+    padding-left: 4.5em;
+    background-color: black;
 }
 
+/* .test {
+    min-width: 500px;
+} */
 #company {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 4;
+    height: 100px;
+    background-color: aqua;
 }
 
 #owner {
@@ -16,6 +23,7 @@
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: red;
 }
 
 #project-one{
@@ -23,6 +31,7 @@
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
+    background: orangered;
 }
 
 #main-packages {
@@ -30,6 +39,8 @@
     grid-row-end: 5;
     grid-column-start: 1;
     grid-column-end: 4;
+    display: flex;
+    background: orchid;
 }
 
 #project-two {
@@ -37,6 +48,7 @@
     grid-row-end: 6;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: palegreen;
 }
 
 #secondary-packages {
@@ -44,6 +56,7 @@
     grid-row-end: 7;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: plum;
 }
 
 #other-projects {
@@ -51,6 +64,7 @@
     grid-row-end: 8;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: saddlebrown;
 }
 
 #contact {
@@ -58,4 +72,5 @@
     grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: skyblue;
 }
