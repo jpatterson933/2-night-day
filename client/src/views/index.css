@@ -1,6 +1,6 @@
 #main-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: repeat(8, 1fr);
     padding-left: 4.5em;
     background-color: black;
@@ -14,8 +14,8 @@
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 4;
-    height: 100px;
-    background-color: aqua;
+    background-color: black;
+    color: mediumaquamarine;
 }
 
 #owner {
@@ -42,6 +42,21 @@
     display: flex;
     background: orchid;
 }
+/* package column alignment */
+.package-one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.package-two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.package-three {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
 
 #project-two {
     grid-row-start: 5;
@@ -56,6 +71,7 @@
     grid-row-end: 7;
     grid-column-start: 1;
     grid-column-end: 4;
+    display: flex;
     background-color: plum;
 }
 
@@ -64,6 +80,7 @@
     grid-row-end: 8;
     grid-column-start: 1;
     grid-column-end: 4;
+    display: flex;
     background-color: saddlebrown;
 }
 
