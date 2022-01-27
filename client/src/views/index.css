@@ -1,14 +1,11 @@
 #main-grid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: auto auto auto auto auto auto auto auto;
     padding-left: 4.5em;
-    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 1));
 }
 
-/* .test {
-    min-width: 500px;
-} */
 #company {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -16,6 +13,14 @@
     grid-column-end: 4;
     background-color: black;
     color: mediumaquamarine;
+}
+
+.button-one {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-top: 12em;
 }
 
 #owner {

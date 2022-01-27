@@ -9,10 +9,10 @@ import './index.css';
 export const Nav = () => {
     return (
         <nav id="navigation-menu">
-                <ButtonLink buttonName="N&D" />
-                <ButtonLink buttonName="Bars" />
-                <ButtonLink buttonName="Consult" />
-                <ButtonLink buttonName="Contact" />
+                <ButtonLink buttonClass="nav-button" buttonName="N&D" />
+                <ButtonLink buttonClass="nav-button" buttonName="Bars" />
+                <ButtonLink buttonClass="nav-button" buttonName="Consult" />
+                <ButtonLink buttonClass="nav-button" buttonName="Contact" />
         </nav>
     )
 }

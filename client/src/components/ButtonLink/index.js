@@ -5,6 +5,6 @@ import './index.css';
 
 export const ButtonLink = (props) => {
     return (
-        <a href="/" className="button-link">{props.buttonName} </a>
+        <a href={props.buttonLink} className={props.buttonClass}>{props.buttonName} </a>
     )
 }

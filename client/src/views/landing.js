@@ -2,6 +2,7 @@ import React from 'react';
 
 // components
 import { Box } from '../components/Box';
+import { ButtonLink } from '../components/ButtonLink';
 
 // Stylesheet
 import './index.css';
@@ -9,7 +10,7 @@ import './index.css';
 export const Landing = () => {
     return (
         <div id="main-grid">
-            <div className="test" id="company">
+            <div id="company">
                 <Box
                     consultTitle="Night and Day Consulting"
                     detailsOne="Night and Day is a bar program consulting group based in Los Angeles. Specializations include 
@@ -18,6 +19,7 @@ export const Landing = () => {
                     at each step of the beverage program."
                 />
             </div>
+                <ButtonLink buttonLink="/" buttonClass="button-one" buttonName="Contact" />
             <div id="owner">
                 <Box
                     className="package-one"
@@ -57,8 +59,6 @@ export const Landing = () => {
                     <li>Menu Placements</li>
                     <li>Day to Day Program Oversight</li>
                 </ul>
-
-
             </div>
             <div id="secondary-packages">
                 <Box className="package-one" consultTitle="Menu Design" detailsOne="Improved Sales" detailsTwo="Streamline Orders" detailsThree="Easier Sales for Staff" />
