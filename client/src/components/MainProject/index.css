@@ -1,0 +1,17 @@
+#project-one{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: orangered;
+}
+
+#project-grid-main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, minmax(100px, 200px));
+}
+
+.project-picture {
+    width: 100%;
+}
