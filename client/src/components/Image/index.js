@@ -5,6 +5,6 @@ import './index.css';
 
 export const Image = (props) => {
     return (
-        <img src={props.imageSrc} alt={props.imageAlt} />
+        <img className={props.imageClass} src={props.imageSrc} alt={props.imageAlt} />
     )
 }

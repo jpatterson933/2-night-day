@@ -15,7 +15,7 @@ export const MainProject = (props) => {
                     <li>Bar Design</li>
                     <li>Menu Design</li>
                     <li>Drink Design</li>
-                    <li>Inventory and Variance Tracking</li>
+                    <li>Inventory and Variance Tracking</li>  {/* What is inventory management? Tracking Inventtory variance of what should be there and what shouldnt. Inventory turnover where you make sure you are not wasting space and money on inventory that does not move. Carrying high selling inventory items. */}
                     <li>Program Manuals for Entire Program</li>
                     <li>Staff Training</li>
                     <li>Menu Placements</li>
@@ -24,9 +24,8 @@ export const MainProject = (props) => {
                 <Image
                     imageSrc="https://images.squarespace-cdn.com/content/v1/5d2790419dc52c0001cecb1a/1606963189611-X1PM40LFLZRWOH6KYMN7/pxap3FYQ.jpg?format=2500w"
                     imageAlt="Elephante Vibes"
-                    className="project-picture"
+                    imageClass="project-picture"
                 />
-
             </div>
         </div>
     )

@@ -9,7 +9,7 @@
 #project-grid-main {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(3, minmax(100px, 200px));
+    grid-template-rows: auto auto auto;
 }
 
 .project-picture {
