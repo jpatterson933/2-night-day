@@ -15,13 +15,12 @@ export const Landing = () => {
             <div id="company">
                 <Box
                     consultTitle="Night and Day Consulting"
-                    detailsOne="Night and Day is a bar program consulting group based in Los Angeles. Specializations include 
-                    maximizing bar space and beverage ouptput while minimizing bar program costs. This is accomplished through 
-                    the training of staff and implementation of daily, weekly, and monthly procedures designed to lower costs
-                    at each step of the beverage program."
+                    detailsOne="Night and Day is a bar program consulting group based in Los Angeles. Specializations include decreasing 
+                    beverage program costs by minimizing waste, inventory management, staff training, space organization and daily management.
+                    Night and Day Bar consulting group will minimize your costs below 20% while improving you entire program."
                 />
             </div>
-                <ButtonLink buttonLink="/" buttonClass="button-one" buttonName="Contact" />
+                <ButtonLink buttonLink="/" buttonClass="button-one" buttonName="Brunch Vibes" />
             <div id="owner">
                 <Box
                     className="package-one"
