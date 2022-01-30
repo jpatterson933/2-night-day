@@ -1,0 +1,11 @@
+.day {
+    position: absolute;
+    margin-top: -6em;
+    margin-left: 2px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    z-index: 99;
+    background-color: coral;
+    box-shadow: 0 0 55px orange, inset 0 0 49px yellow;
+}

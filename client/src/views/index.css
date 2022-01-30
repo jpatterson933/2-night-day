@@ -15,6 +15,10 @@
     color: mediumaquamarine;
 }
 
+.project-row-one {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 #owner {
     grid-row-start: 2;
     grid-row-end: 3;
@@ -23,14 +27,6 @@
     background-color: black;
     color: mediumaquamarine;
 }
-
-/* #project-one{
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    background: orangered;
-} */
 
 .ele-image {
     grid-column-start: 3;
