@@ -13,7 +13,7 @@
 }
 
 #project-grid-main:hover {
-    -o-transition: 1000ms;
+    transition-delay: 100ms;
     background: green;
 }
 
