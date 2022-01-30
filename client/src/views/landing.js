@@ -9,11 +9,11 @@ import { MainProject } from '../components/MainProject';
 // Stylesheet
 import './index.css';
 import './button.css';
+import { SecondProject } from '../components/ProjectTwo';
 
 export const Landing = () => {
     return (
         <>
-
             <div id="main-grid">
                 <div id="company">
                     <Box
@@ -36,43 +36,34 @@ export const Landing = () => {
                 </div>
                 <div className="project-row-one">
                     <MainProject />
-                    <ButtonLink buttonLink="/" buttonClass="button-three" buttonName="More Projects" />
+                    <ButtonLink buttonLink="/" buttonClass="button-three" buttonName="Bar Programs" />
                 </div>
                 <div id="main-packages">
-                    <Box className="package-one" consultTitle="Entire Bar Program" detailsOne="Bar Design and Layout" detailsTwo="Menu and Drink Design" detailsThree="Training Manual Design" />
-                    <Box className="package-two" consultTitle="Bar Space Design" detailsOne="Maximize Space" detailsTwo="Increase Volume" detailsThree="Professional Layout" />
-                    <Box className="package-three" consultTitle="Drink Design" detailsOne="Increased Sales" detailsTwo="Inventory Turnover" detailsThree="Great Taste" />
-                    <ButtonLink buttonLink="/" buttonClass="button-four" buttonName="More Consulting" />
+                    <Box className="package-one" consultTitle="Bar Program" detailsOne="Bar Layout" detailsTwo="Cocktail Creation" detailsThree="Staff Training" />
+                    <Box className="package-two" consultTitle="Bar Design" detailsOne="Maximize Space" detailsTwo="Increase Volume" detailsThree="Professional Layout" />
+                    <Box className="package-three" consultTitle="Bar Sales" detailsOne="Increased Sales" detailsTwo="Inventory Turnover" detailsThree="Great Taste" />
                 </div>
+                    <ButtonLink buttonLink="/" buttonClass="button-four" buttonName="Consulting" />
+
                 <div id="project-two">
-                    <h1>Belle's Beach House</h1>
-                    <ul>
-                        <li>Bar Design</li>
-                        <li>Menu Design</li>
-                        <li>Drink Design</li>
-                        <li>Inventory and Variance Tracking</li>
-                        <li>Program Manuals for Entire Program</li>
-                        <li>Staff Training</li>
-                        <li>Menu Placements</li>
-                        <li>Day to Day Program Oversight</li>
-                    </ul>
-                    <ButtonLink buttonLink="/" buttonClass="button-five" buttonName="More Projects" />
+                    <SecondProject />
+                    <ButtonLink buttonLink="/" buttonClass="button-five" buttonName="Bar Programs" />
                 </div>
                 <div id="secondary-packages">
                     <Box className="package-one" consultTitle="Menu Design" detailsOne="Improved Sales" detailsTwo="Streamline Orders" detailsThree="Easier Sales for Staff" />
                     <Box className="package-two" consultTitle="Program Costing" detailsOne="Lower Costs through" detailsTwo="Inventory Tracking" detailsThree="Staff Training" />
-                    <Box className="package-three" consultTitle="Prep Program" detailsOne="Prep Manuals that" detailsTwo="Streamline the process" detailsThree="Minimize wast and maximize output" />
-                    <ButtonLink buttonLink="/" buttonClass="button-six" buttonName="Main Consulting Packages" />
+                    <Box className="package-three" consultTitle="Prep Program" detailsOne="Prep Design" detailsTwo="Fresh Daily" detailsThree="Minimize Waste" />
                 </div>
+                    <ButtonLink buttonLink="/" buttonClass="button-six" buttonName="Consulting" />
                 <div id="other-projects">
-                    <Box className="package-one" consultTitle="The Eveleigh" detailsOne="Los Angeles" detailsTwo="Lowered Costs" detailsThree="Helped with Inventory Turnover" />
-                    <Box className="package-two" consultTitle="Fia" detailsOne="Drink design" detailsTwo="Menu Design" detailsThree="Staff Training and Increase in Inventory Turnover" />
-                    <Box className="package-three" consultTitle="Dudleys & Little Rubys New York" detailsOne="testOne" detailsTwo="testTwo" detailsThree="testThree" />
-                    <ButtonLink buttonLink="/" buttonClass="button-seven" buttonName="Back to Top" />
+                    <Box className="package-one" consultTitle="Dudleys" detailsOne="New York" detailsTwo="Bar Data Gathering" detailsThree="Inventory Management" />
+                    <Box className="package-two" consultTitle="Fia" detailsOne="Los Angeles" detailsTwo="Menu Design" detailsThree="Inventory Turnover" />
+                    <Box className="package-three" consultTitle="Kassi Club" detailsOne="Las Vegas" detailsTwo="Cocktail Creation" detailsThree="Inventory Management" />
                 </div>
+                    <ButtonLink buttonLink="/" buttonClass="button-seven" buttonName="Back to Top" />
                 <div id="contact">
-                    <Box className="package-three" consultTitle="Want a quick consultation?" detailsOne="Submit your email below" detailsTwo="Email here" detailsThree="testThree" />
-                    <ButtonLink buttonLink="/" buttonClass="button-eighta" buttonName="Submit" />
+                    <Box className="package-three" consultTitle="Want a quick conversation?" detailsOne="Submit your email below" detailsTwo="Email here" detailsThree="this is where they will write their email" />
+                    <ButtonLink buttonLink="/" buttonClass="button-eight" buttonName="Submit" />
                 </div>
             </div>
         </>
