@@ -1,3 +1,7 @@
+:root {
+    --color: rgba(255, 219, 205);
+}
+
 #main-grid {
     display: grid;
     grid-template-columns: repeat(3, 33%);
@@ -13,7 +17,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     margin-top: 3em;
-    color: mediumaquamarine;
+    color: var(--color);
 }
 
 .project-row-one {
@@ -28,7 +32,7 @@
     padding-bottom: 1em;
     background-color: rgba(255, 255, 255, 8%);
     border-radius: 12px 0px 0px 12px;
-    color: mediumaquamarine;
+    color: var(--color);
 }
 
 .ele-image {
@@ -45,8 +49,7 @@
     padding: 2em 0em;
     background: rgba(255, 255, 255, 26%);
     border-radius: 12px 0px 0px 12px;
-    color: aquamarine;
-}
+    color: var(--color);}
 
 /* package column alignment */
 .package-one {
@@ -80,8 +83,7 @@
     padding: 2em 0em;
     background: rgba(100, 100, 100, 25%);
     border-radius: 12px 0px 0px 12px;
-    color: aquamarine;
-}
+    color: var(--color);}
 
 #other-projects {
     grid-row-start: 7;

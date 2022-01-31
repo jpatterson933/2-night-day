@@ -1,6 +1,6 @@
 :root {
     --border: 1px solid black;
-    --background: mediumaquamarine;
+    --background: rgba(255, 219, 205);
     --padding: 7px;
     --border-radius: 5px;
 }
@@ -43,6 +43,7 @@
     grid-column-start: 2;
     grid-column-end: 3;
     margin-top: 11em;
+    margin-bottom: 7px;
     border: var(--border);
     background: var(--background);
     padding: var(--padding);
@@ -64,6 +65,7 @@
     grid-column-start: 2;
     grid-column-end: 3;
     margin-top: 11em;
+    margin-bottom: 7px;
     border: var(--border);
     background: var(--background);
     padding: var(--padding);
