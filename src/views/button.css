@@ -95,25 +95,29 @@
 
 @media only screen and (max-width: 560px) {
     .button-four {
-        margin-top: 15em;
+        margin-top: 16em;
+        padding: 10px 0.5em;
     }
 
     .button-three {
         display: inline-block;
-        margin-top: 2em;
+        margin-top: 5em;
     }
 
     .button-five {
         display: inline-block;
-        margin-top: 8em;
+        margin-top: 13em;
     }
 
     .button-six {
         margin-top: 17em;
+        padding: 10px 0.5em;
+
     }
 
     .button-seven {
         padding: 0.5em 0em;
+        margin-top: 13em;
     }
 
     
