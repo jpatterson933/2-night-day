@@ -47,13 +47,14 @@ export const Input = (props) => {
         <form id="contact-form" onSubmit={onSubmit}>
             <div className="form-word">
                 <input
+                    id={props.inputId}
                     type="email"
                     name="reply_to"
                     placeholder="Enter your Email"
                     value={toSend.reply_to}
                     onChange={handleChange}
                 />
-                <SubmitButton type='submit' className='submit-button button-one' name='Submit' />
+                <SubmitButton type='submit' id="contact-submit-button" className='submit-button button-one' name='Submit' />
             </div>
         </form>
     )

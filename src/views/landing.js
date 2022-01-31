@@ -4,13 +4,13 @@ import React from 'react';
 import { Box } from '../components/Box';
 import { ButtonLink } from '../components/ButtonLink';
 import { MainProject } from '../components/MainProject';
+import { Contact } from '../components/Contact';
 // import { Day } from '../components/Day';
 
 // Stylesheet
 import './index.css';
 import './button.css';
 import { SecondProject } from '../components/ProjectTwo';
-import { Input } from '../components/Input';
 
 export const Landing = () => {
     return (
@@ -63,10 +63,7 @@ export const Landing = () => {
                     <Box className="package-three" consultTitle="Kassi Club" detailsOne="Las Vegas" detailsTwo="Cocktail Creation" detailsThree="Inventory Management" />
                 </div>
                     <ButtonLink buttonLink="#company" buttonClass="button-seven" buttonName="Back to Top" />
-                <div id="contact">
-                    <Box className="package-three" consultTitle="Want a quick conversation?" detailsTwo="Email here"/>
-                    <Input />
-                </div>
+                <Contact />
             </div>
         </>
     )
