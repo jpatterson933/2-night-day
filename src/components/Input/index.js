@@ -20,8 +20,7 @@ export const Input = (props) => {
 
     // on submit - this will send our form
     const onSubmit = (e) => {
-        e.preventDefault();
-        console.log(e)
+        // e.preventDefault(); ----we are going to allow the page to reload
         // this sends the email
         send(
             env.SERVICE_KEY,

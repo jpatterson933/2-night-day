@@ -24,32 +24,31 @@ export const Landing = () => {
                         Specializations include decreasing beverage program costs by minimizing waste, inventory management, 
                         staff training, space organization and daily management."
                     />
-                    <ButtonLink buttonLink="#elephante-link" buttonClass="button-one" buttonName="Projects" />
+                    <ButtonLink buttonLink="#elephante-link" buttonClass="button-one" buttonName="Bar Programs" />
                 </div>
                 <div id="owner">
                     <Box
                         className="package-one"
                         consultTitle="Julien Calella"
                         detailsOne="Corporate Beverage Director for Wish You Were Here Group"
-                        // detailsTwo="Consultant to various bar program across the United States"
                         detailsThree="Designer and developer of various bar programs across the United States."
                     />
                     <ButtonLink buttonLink="#contact" buttonClass="button-two" buttonName="Contact" />
                 </div>
                 <div id="elephante-link" className="project-row-one">
                     <MainProject />
-                    <ButtonLink buttonLink="#project-two" buttonClass="button-three" buttonName="Bar Programs" />
+                    <ButtonLink buttonLink="#project-two" buttonClass="button-three" buttonName="More Bar Programs" />
                 </div>
                 <div id="main-packages">
                     <Box className="package-one" consultTitle="Bar Program" detailsOne="Bar Layout" detailsTwo="Cocktail Creation" detailsThree="Staff Training" />
                     <Box className="package-two" consultTitle="Bar Design" detailsOne="Maximize Space" detailsTwo="Increase Volume" detailsThree="Professional Layout" />
                     <Box className="package-three" consultTitle="Bar Sales" detailsOne="Increased Sales" detailsTwo="Inventory Turnover" detailsThree="Great Taste" />
                 </div>
-                    <ButtonLink buttonLink="#secondary-packages" buttonClass="button-four" buttonName="Consulting" />
+                    <ButtonLink buttonLink="#secondary-packages" buttonClass="button-four" buttonName="More Consulting" />
 
                 <div id="project-two">
                     <SecondProject />
-                    <ButtonLink buttonLink="#other-projects" buttonClass="button-five" buttonName="Bar Programs" />
+                    <ButtonLink buttonLink="#other-projects" buttonClass="button-five" buttonName="Other Bar Programs" />
                 </div>
                 <div id="secondary-packages">
                     <Box className="package-one" consultTitle="Menu Design" detailsOne="Improved Sales" detailsTwo="Streamline Orders" detailsThree="Easier Sales for Staff" />
