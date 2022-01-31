@@ -99,3 +99,40 @@
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
+@media only screen and (min-width: 560px) {
+
+    #main-grid {
+        grid-row-gap: 5.5em;
+    }
+    .project-row-one {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #main-packages {
+        grid-row-start: 5;
+    }
+    
+    #project-two {
+        grid-row-start: 6;
+    }
+
+    #secondary-packages {
+        grid-row-start: 7;
+        margin-top: 5.5em;
+    }
+
+    #other-projects {
+        grid-row-start: 8;
+    }
+
+    #contact {
+        grid-row-start: 9;
+    }
+
+
+}
+
+@media only screen and (min-width: 1250px) {
+
+}

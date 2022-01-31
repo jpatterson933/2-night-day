@@ -1,7 +1,7 @@
 :root {
     --border: 1px solid black;
     --background: rgba(255, 219, 205);
-    --padding: 7px;
+    --padding: 10px 1.5em;
     --border-radius: 5px;
 }
 
@@ -91,4 +91,24 @@
     background: var(--background);
     padding: var(--padding);
     border-radius: var(--border-radius);
+}
+
+@media only screen and (min-width: 560px) {
+    .button-four {
+        grid-row-start: 5;
+    }
+
+    .button-six {
+        grid-row-start: 7;
+        margin-top: 18em;
+    }
+
+    .button-seven {
+        grid-row-start: 8;
+    }
+
+}
+
+@media only screen and (min-width: 1250px) {
+
 }

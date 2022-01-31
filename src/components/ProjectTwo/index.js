@@ -32,7 +32,7 @@ export const SecondProject = (props) => {
         <div id="project-one">
             <div id="project-grid-main">
                 <h1 id="project-two-title">{Details[0].restaurant}</h1>
-                <div id="project-details"> {detailsList[0]}
+                <div id="project-details-two"> {detailsList[0]}
                     {/*  What is inventory management? Tracking Inventtory variance of what should be there and what shouldnt. 
                     Inventory turnover where you make sure you are not wasting space and money on inventory that does not move. 
                     Carrying high selling inventory items. */}

@@ -12,10 +12,11 @@
     grid-template-rows: auto auto auto;
 }
 
-#project-grid-main:hover {
+/* #project-grid-main:hover {
+    transition: fade;
     transition-delay: 100ms;
     background: green;
-}
+} */
 
 #project-title {
     grid-column-start: 2;
@@ -44,3 +45,17 @@
     width: 96%;
     height: 100%;
 }
+
+@media only screen and (min-width: 768px) {
+
+
+
+  }
+
+@media only screen and (min-width: 1250px) {
+    #project-details {
+        font-size: 1.7em;
+    }
+
+}
+
