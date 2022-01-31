@@ -46,7 +46,6 @@ export const Input = (props) => {
     return (
         <form id="contact-form" onSubmit={onSubmit}>
             <div className="form-word">
-                <span >Enter Email</span>
                 <input
                     type="email"
                     name="reply_to"

@@ -99,6 +99,14 @@
     grid-column-start: 1;
     grid-column-end: 4;
 }
+@media only screen and (max-width: 560px) {
+    #main-grid {
+        grid-row-gap: 7em;
+    }
+
+    
+}
+
 
 @media only screen and (min-width: 560px) {
 
@@ -134,5 +142,6 @@
 }
 
 @media only screen and (min-width: 1250px) {
+
 
 }

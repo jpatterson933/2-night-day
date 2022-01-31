@@ -93,6 +93,32 @@
     border-radius: var(--border-radius);
 }
 
+@media only screen and (max-width: 560px) {
+    .button-four {
+        margin-top: 15em;
+    }
+
+    .button-three {
+        display: inline-block;
+        margin-top: 2em;
+    }
+
+    .button-five {
+        display: inline-block;
+        margin-top: 8em;
+    }
+
+    .button-six {
+        margin-top: 17em;
+    }
+
+    .button-seven {
+        padding: 0.5em 0em;
+    }
+
+    
+}
+
 @media only screen and (min-width: 560px) {
     .button-four {
         grid-row-start: 5;
