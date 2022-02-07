@@ -10,7 +10,7 @@
     box-shadow: 0 0 9px -2px black;
     border: 1px solid black;
     padding: 4px;
-    background: rgba(255, 255, 255, 70%);
+    background: rgba(255, 219, 205);
 }
 
 @media only screen and (min-width: 768px) {
@@ -20,3 +20,17 @@
 @media only screen and (min-width: 1250px) {
 
 }
+
+.shimmer {
+    color: black;
+    text-decoration: underline;
+    -webkit-mask:linear-gradient(-90deg,#000 30%,#0005,#000 90%) right/300% 100%;
+    background-repeat: no-repeat;
+    animation-delay: 1s;
+    animation: shimmer 2.5s infinite;
+    max-width:200px;
+  }
+  
+  @keyframes shimmer {
+    100% {-webkit-mask-position:left}
+  }
