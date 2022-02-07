@@ -1,4 +1,3 @@
-
 export const Details = [
     {
         restaurant: "Elephante",

@@ -5,7 +5,6 @@ import { Box } from '../components/Box';
 import { ButtonLink } from '../components/ButtonLink';
 import { MainProject } from '../components/MainProject';
 import { Contact } from '../components/Contact';
-// import { Day } from '../components/Day';
 
 // Stylesheet
 import './index.css';

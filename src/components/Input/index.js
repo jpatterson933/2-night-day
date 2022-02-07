@@ -17,7 +17,6 @@ export const Input = (props) => {
         reply_to: '',
     });
 
-
     // on submit - this will send our form
     const onSubmit = (e) => {
         // e.preventDefault(); ----we are going to allow the page to reload
@@ -29,10 +28,12 @@ export const Input = (props) => {
             env.USER_KEY
         )
             .then((response) => {
-                console.log('Success!', response.status, response.text, response);
+                // console.log('Success!', response.status, response.text, response);
+                console.log("success");
             })
             .catch((err) => {
-                console.log('FAILED...', err);
+                // console.log('FAILED...', err);
+                console.log("fail");
             });
     };
 

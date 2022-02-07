@@ -4,20 +4,20 @@ body {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1em;
-    text-decoration: underline;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  text-decoration: underline;
+}
 
-   a {
-    font-family: 'Zen Kurenaido', sans-serif;
-    text-decoration: none;
-    color: black;
-  }
+  a {
+  font-family: 'Zen Kurenaido', sans-serif;
+  text-decoration: none;
+  color: black;
+}
 
-  li, p, div{
-    font-family: 'Roboto Condensed', sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-  }
+li, p, div{
+  font-family: 'Roboto Condensed', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
 

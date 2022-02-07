@@ -9,11 +9,3 @@
     background-color: coral;
     box-shadow: 0 0 55px orange, inset 0 0 49px yellow;
 }
-
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 1250px) {
-
-}

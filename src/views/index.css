@@ -103,18 +103,13 @@
     #main-grid {
         grid-row-gap: 7em;
     }
-
     #main-packages {
         padding: 0;
     }
-
     #secondary-packages {
         padding: 0;
     }
-
-    
 }
-
 
 @media only screen and (min-width: 560px) {
 
@@ -128,35 +123,26 @@
     #main-packages {
         grid-row-start: 5;
     }
-    
     #project-two {
         grid-row-start: 6;
     }
-
     #secondary-packages {
         grid-row-start: 7;
         margin-top: 5.5em;
     }
-
     #other-projects {
         grid-row-start: 8;
     }
-
     #contact {
         grid-row-start: 9;
     }
-
-
 }
 
 @media only screen and (min-width: 1230px) {
     #main-packages {
         background: rgba(150, 150, 150, 80%);
     }
-
     #secondary-packages {
         background: rgba(100, 100, 100, 58%);
     }
-
-
 }

@@ -1,7 +1,6 @@
 :root {
     --color: rgba(255, 219, 205);
 }
-
 #contact {
     grid-row-start: 8;
     grid-row-end: 9;
@@ -14,29 +13,20 @@
         grid-template-rows: auto auto auto auto;
         grid-row-gap: 1em;
     }
-
     #contact-title {
         margin-top: 5em;
     }
-
     #input-for-email {
         display: flex;
         margin: 0 auto;
     }
-
     #contact-submit-button {
         margin-top: 2em;
     }
-
-    
 }
 
-
 @media only screen and (min-width: 560px) {
-
     #contact {
         grid-row-start: 9;
     }
-
-
 }
