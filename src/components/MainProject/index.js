@@ -7,6 +7,9 @@ import { Details } from './projectDetails';
 // stylesheet
 import './index.css';
 
+//media
+import elephante from '../../media/elephante.jpg';
+
 export const MainProject = (props) => {
 
     const detailsList = Details.map((project) => {
@@ -27,7 +30,7 @@ export const MainProject = (props) => {
                 <div id="project-details"> {detailsList[0]}
                 </div>
                 <Image
-                    imageSrc="https://images.squarespace-cdn.com/content/v1/5d2790419dc52c0001cecb1a/1606963189611-X1PM40LFLZRWOH6KYMN7/pxap3FYQ.jpg?format=2500w"
+                    imageSrc={elephante}
                     imageAlt="Elephante Vibes"
                     imageClass="project-picture"
                 />

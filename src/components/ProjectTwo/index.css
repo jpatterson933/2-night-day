@@ -5,7 +5,7 @@
 
 }
 
-#project-one{
+#project-one {
     grid-row-start: 1;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -24,10 +24,11 @@
     grid-column-end: span 3;
     color: var(--color);
 }
+
 #project-details-two {
     grid-column-start: 1;
     grid-column-end: 2;
-    color: var(--color);  
+    color: var(--color);
 }
 
 .project-two-picture {
@@ -50,5 +51,13 @@
 @media only screen and (min-width: 1250px) {
     #project-details-two {
         font-size: 1.7em;
+    }
+
+    .project-two-picture {
+        margin-top: 0em;
+        width: 100%;
+        box-shadow: 3px 3px 9px 1px;
+        padding-left: 0px;
+        height: 80%;
     }
 }
