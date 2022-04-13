@@ -3,10 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //components
 import { Nav } from "./components/Sidebar";
-import { Landing } from "./views/landing";
 import { Night } from "./components/Night";
 import { Day } from "./components/Day";
+//pages
+import { Landing } from "./views/landing";
 import { Projects } from './views/projects';
+import { Consult } from './views/consult';
+import { Contact } from './components/Contact';
 
 const App = () => {
 
@@ -14,13 +17,13 @@ const App = () => {
     <div className="App">
       <Night />
       <Nav />
-      <Landing />
       <Day />
       <Router>
         <Routes>
-          <Route path='/projects' exact component={Projects} />
-          <Route path='/' exact component={Landing} />
-
+          <Route path='/' exact element={<Landing />} />
+          <Route path='/projects' exact element={<Projects />} />
+          <Route path='/consult' exact element={<Consult />} />
+          <Route path='/contact' exact element={<Contact />} />
         </Routes>
       </Router>
     </div>

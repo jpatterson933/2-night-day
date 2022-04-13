@@ -1,11 +1,8 @@
 import React from 'react';
 
 // components
-import { Image } from '../Image';
 import { Details } from './projectDetails';
 
-// media
-import belles from "../../media/belles.jpg";
 
 // stylesheet
 import './index.css';
@@ -29,11 +26,6 @@ export const SecondProject = (props) => {
                 <h1 id="project-two-title">{Details[0].restaurant}</h1>
                 <div id="project-details-two"> {detailsList[0]}
                 </div>
-                <Image
-                    imageSrc={belles}
-                    imageAlt="Belles Vibes"
-                    imageClass="project-two-picture"
-                />
             </div>
         </div>
     )
