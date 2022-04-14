@@ -2,43 +2,28 @@
     --color: rgba(255, 219, 205);
 }
 
+/* this is the background for most pages - should just have this be on the app.js so it doesnt need to repeated */
 #main-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    grid-template-rows: auto auto auto auto auto auto auto auto;
-    grid-row-gap: 1em;
     padding-left: 4.5em;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 1));
 }
 
+/* landing page  */
 #company {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    margin-top: 3em;
     color: var(--color);
 }
 
-.project-row-one {
-    grid-column-start: 1;
-    grid-column-end: 4;
+#company-title {
+    font-size: 2em;
+    padding-top: 2em;
+    color: white;
 }
 #owner {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    padding-bottom: 1em;
     background-color: rgba(255, 255, 255, 8%);
     border-radius: 12px 0px 0px 12px;
     color: var(--color);
 }
 
-.ele-image {
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
 
 #main-packages {
     grid-row-start: 4;
@@ -49,30 +34,9 @@
     padding: 2em 0em;
     background: rgba(255, 255, 255, 26%);
     border-radius: 12px 0px 0px 12px;
-    color: var(--color);}
-
-/* package column alignment */
-.package-one {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    color: var(--color);
 }
 
-.package-two {
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.package-three {
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-
-#project-two {
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
 
 #secondary-packages {
     grid-row-start: 6;
@@ -83,29 +47,18 @@
     padding: 2em 0em;
     background: rgba(100, 100, 100, 25%);
     border-radius: 12px 0px 0px 12px;
-    color: var(--color);}
-
-#other-projects {
-    grid-row-start: 7;
-    grid-row-end: 8;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    display: flex;
+    color: var(--color);
 }
 
-#contact {
-    grid-row-start: 8;
-    grid-row-end: 9;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
 @media only screen and (max-width: 560px) {
     #main-grid {
         grid-row-gap: 7em;
     }
+
     #main-packages {
         padding: 0;
     }
+
     #secondary-packages {
         padding: 0;
     }
@@ -116,32 +69,26 @@
     #main-grid {
         grid-row-gap: 5.5em;
     }
-    .project-row-one {
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+
+
     #main-packages {
         grid-row-start: 5;
     }
-    #project-two {
-        grid-row-start: 6;
-    }
+
+
     #secondary-packages {
         grid-row-start: 7;
         margin-top: 5.5em;
     }
-    #other-projects {
-        grid-row-start: 8;
-    }
-    #contact {
-        grid-row-start: 9;
-    }
+
+
 }
 
 @media only screen and (min-width: 1230px) {
     #main-packages {
         background: rgba(150, 150, 150, 80%);
     }
+
     #secondary-packages {
         background: rgba(100, 100, 100, 58%);
     }

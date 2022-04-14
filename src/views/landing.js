@@ -1,68 +1,29 @@
 import React from 'react';
 
 // components
-import { Box } from '../components/Box';
 import { ButtonLink } from '../components/ButtonLink';
-import { MainProject } from '../components/MainProject';
-import { Contact } from '../components/Contact';
 
 // Stylesheet
 import './index.css';
 import './button.css';
-import { SecondProject } from '../components/ProjectTwo';
 
 export const Landing = () => {
     return (
-        <>
             <div id="main-grid">
                 <div id="company">
-                    <Box
-                        consultTitle="Night and Day Consulting"
-                        detailsOne="Night and Day is a bar program consulting group based in Los Angeles. 
+                    <h1 id="company-title">Night and Day Consulting</h1>
+                    <p>"Night and Day is a bar program consulting group based in Los Angeles. 
                         Night and Day Bar consulting group will minimize your costs below 20% while improving you entire program.
                         Specializations include decreasing beverage program costs by minimizing waste, inventory management, 
-                        staff training, space organization and daily management."
-                    />
+                        staff training, space organization and daily management."</p>
                     <ButtonLink buttonLink="#elephante-link" buttonClass="button-one" buttonName="Bar Programs" />
                 </div>
                 <div id="owner">
-                    <Box
-                        className="package-one"
-                        consultTitle="Julien Calella"
-                        detailsOne="Corporate Beverage Director for Wish You Were Here Group"
-                        detailsThree="Designer and developer of various bar programs across the United States."
-                    />
-                    <ButtonLink buttonLink="#contact" buttonClass="button-two" buttonName="Contact" />
+                    <h1>Julien Calella</h1>
+                    <p>"Corporate Beverage Director for Wish You Were Here Group"</p>
+                    <p>"Designer and developer of various bar programs across the United States."</p>
+                    <ButtonLink buttonLink="/contact" buttonClass="button-two" buttonName="Contact" />
                 </div>
-                <div id="elephante-link" className="project-row-one">
-                    <MainProject />
-                    <ButtonLink buttonLink="#project-two" buttonClass="button-three" buttonName="More Bar Programs" />
-                </div>
-                <div id="main-packages">
-                    <Box className="package-one" consultTitle="Bar Program" detailsOne="Bar Layout" detailsTwo="Cocktail Creation" detailsThree="Staff Training" />
-                    <Box className="package-two" consultTitle="Bar Design" detailsOne="Maximize Space" detailsTwo="Increase Volume" detailsThree="Professional Layout" />
-                    <Box className="package-three" consultTitle="Bar Sales" detailsOne="Increased Sales" detailsTwo="Inventory Turnover" detailsThree="Great Taste" />
-                </div>
-                    <ButtonLink buttonLink="#secondary-packages" buttonClass="button-four" buttonName="More Consulting" />
-
-                <div id="project-two">
-                    <SecondProject />
-                    <ButtonLink buttonLink="#other-projects" buttonClass="button-five" buttonName="Other Bar Programs" />
-                </div>
-                <div id="secondary-packages">
-                    <Box className="package-one" consultTitle="Menu Design" detailsOne="Improved Sales" detailsTwo="Streamline Orders" detailsThree="Easier Sales for Staff" />
-                    <Box className="package-two" consultTitle="Lower Costs" detailsOne="Lower Costs through" detailsTwo="Inventory Tracking" detailsThree="Staff Training" />
-                    <Box className="package-three" consultTitle="Prep Program" detailsOne="Prep Design" detailsTwo="Fresh Daily" detailsThree="Minimize Waste" />
-                </div>
-                    <ButtonLink buttonLink="#contact" buttonClass="button-six" buttonName="Contact" />
-                <div id="other-projects">
-                    <Box className="package-one" consultTitle="Dudleys" detailsOne="New York" detailsTwo="Bar Data Gathering" detailsThree="Inventory Management" />
-                    <Box className="package-two" consultTitle="Fia" detailsOne="Los Angeles" detailsTwo="Menu Design" detailsThree="Inventory Turnover" />
-                    <Box className="package-three" consultTitle="Kassi Club" detailsOne="Las Vegas" detailsTwo="Cocktail Creation" detailsThree="Inventory Management" />
-                </div>
-                    <ButtonLink buttonLink="#company" buttonClass="button-seven" buttonName="Back to Top" />
-                <Contact />
             </div>
-        </>
     )
 }

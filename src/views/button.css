@@ -11,10 +11,6 @@
 }
 
 .button-one {
-    grid-row-start: 2;
-    grid-row-end: span 2;
-    grid-column-start: var(--start-col-three);
-    grid-column-end: var(--start-col-four);
     border: var(--border);
     background: var(--background);
     padding: var(--padding);
@@ -23,10 +19,6 @@
 }
 
 .button-two {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: var(--start-col-three);
-    grid-column-end: var(--start-col-four);
     border: var(--border);
     background: var(--background);
     padding: var(--padding);
@@ -36,10 +28,6 @@
 }
 
 .button-three {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: var(--start-col-three);
-    grid-column-end: var(--start-col-four);
     border: var(--border);
     background: var(--background);
     padding: var(--padding);
@@ -48,10 +36,6 @@
 
 }
 .button-four {
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: var(--start-col-two);
-    grid-column-end: var(--start-col-three);
     margin-top: 11em;
     margin-bottom: 7px;
     border: var(--border);
@@ -62,10 +46,7 @@
 
 }
 .button-five {
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: var(--start-col-three);
-    grid-column-end: var(--start-col-four);
+
     border: var(--border);
     background: var(--background);
     padding: var(--padding);
@@ -74,10 +55,7 @@
 
 }
 .button-six {
-    grid-row-start: 6;
-    grid-row-end: 7;
-    grid-column-start: var(--start-col-two);
-    grid-column-end: var(--start-col-three);
+
     margin-top: 11em;
     margin-bottom: 7px;
     border: var(--border);
@@ -88,10 +66,7 @@
 
 }
 .button-seven {
-    grid-row-start: 7;
-    grid-row-end: 8;
-    grid-column-start: var(--start-col-two);
-    grid-column-end: var(--start-col-three);
+
     margin-top: 10em;
     border: var(--border);
     background: var(--background);
@@ -101,10 +76,7 @@
 
 }
 .button-eight {
-    grid-row-start: 8;
-    grid-row-end: 9;
-    grid-column-start: var(--start-col-three);
-    grid-column-end: var(--start-col-four);
+
     border: var(--border);
     background: var(--background);
     padding: var(--padding);
