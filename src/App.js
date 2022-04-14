@@ -3,21 +3,18 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //components
 import { Nav } from "./components/Sidebar";
-import { Night } from "./components/Night";
-import { Day } from "./components/Day";
+
 //pages
 import { Landing } from "./views/landing";
 import { Projects } from './views/projects';
 import { Consult } from './views/consult';
-import { Contact } from './components/Contact';
+import { Contact } from './views/contact';
 
 const App = () => {
 
   return (
     <div className="App">
-      <Night />
       <Nav />
-      <Day />
       <Router>
         <Routes>
           <Route path='/' exact element={<Landing />} />

@@ -1,0 +1,6 @@
+.project-card {
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, .4);
+    width: fit-content;
+}
