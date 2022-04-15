@@ -14,3 +14,9 @@
     margin: 10px 0;
     background: rgba(255, 219, 205);
 }
+
+#llc {
+  position: absolute;
+  margin-top: 13em;
+  font-size: 10px;
+}

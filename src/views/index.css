@@ -10,17 +10,20 @@
 
 /* landing page  */
 #company {
+    padding-bottom: 5em;
     color: var(--color);
 }
 
-#company-title {
+.title {
     font-size: 2em;
     padding-top: 2em;
     color: white;
 }
+
 #owner {
-    background-color: rgba(255, 255, 255, 8%);
+    background-color: rgba(0, 0, 0, 30%);
     border-radius: 12px 0px 0px 12px;
+    height: 17em;
     color: var(--color);
 }
 
@@ -51,12 +54,57 @@
 }
 
 @media only screen and (max-width: 560px) {
+
+    #owner {
+        color: black;
+    }
+
+    .julien {
+        font-size: 1.4em;
+        padding: 0;
+        margin: 8px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #owner-details {
+        background: rgba(0, 0, 0, 14%);
+
+        border-radius: 10px;
+        color: white;
+        font-size: 12px;
+        padding: 5px;
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 2em;
+
+    }
+
+    #owner-details p {
+        padding: 0;
+        margin: 0;
+        color: var(--color);
+
+    }
+
+    #company {
+        padding: 0;
+    }
+
+    #company-description {
+        font-size: 20px;
+        color: black;
+        margin-top: 2em;
+    }
+
     #main-grid {
         grid-row-gap: 7em;
     }
 
     #main-packages {
         padding: 0;
+        padding: 0;
+        margin: 3em 0;
     }
 
     #secondary-packages {
