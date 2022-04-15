@@ -44,6 +44,7 @@
     ]
   },
   "dependencies": {
+    "react-awesome-reveal": "^3.8.1",
     "react-router-dom": "^6.3.0"
   }
 }
