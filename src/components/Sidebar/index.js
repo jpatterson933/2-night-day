@@ -18,6 +18,7 @@ export const Nav = () => {
                     <ButtonLink buttonLink="/consult" buttonClass="nav-button shimmer" buttonName="Consult" />
                     <ButtonLink buttonLink="/contact" buttonClass="nav-button shimmer" buttonName="Contact" />
         <Day />
+            <div id="llc">Night & Day Consulting LLC</div>
             </nav>
         </>
     )
