@@ -1,0 +1,27 @@
+.consult-card {
+    background-color: rgba(209, 137, 102, 36%);
+    margin: 5px;
+    border-radius: 12px;
+    text-align: center;
+}
+.consult-card h4 {
+    margin: 0 4em;
+}
+.consult-package-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5em;
+}
+@media only screen and (max-width: 768px) {
+    .consult-card {
+        width: 100%;
+    }
+    .consult-package-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        margin-left: 5em;
+    }
+    #page-title {
+        margin-left: 5em;
+    }
+}

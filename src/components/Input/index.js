@@ -1,22 +1,15 @@
 import React, { useState } from 'react';
-
 // components
 import { SubmitButton } from './submitButton';
-
 //packages
 import { send } from 'emailjs-com';
 import env from 'react-dotenv';
 
-// stylesheet
-import './index.css';
-
 export const Input = (props) => {
-
     // here we are setting our state for our form to empty variables with empty strings
     const [toSend, setToSend] = useState({
         reply_to: '',
     });
-
     // on submit - this will send our form
     const onSubmit = (e) => {
         // e.preventDefault(); ----we are going to allow the page to reload
@@ -36,18 +29,15 @@ export const Input = (props) => {
                 console.log("fail");
             });
     };
-
     //sets our form state on change
     const handleChange = (e) => {
         // sends our form values
         setToSend({ ...toSend, [e.target.name]: e.target.value })
     };
-
     return (
         <form id="contact-form" onSubmit={onSubmit}>
             <div className="form-word">
                 <input
-                    id={props.inputId}
                     type="email"
                     name="reply_to"
                     placeholder="Enter your Email"

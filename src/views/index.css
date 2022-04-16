@@ -1,64 +1,34 @@
 :root {
     --color: rgba(255, 219, 205);
 }
-
 /* this is the background for most pages - should just have this be on the app.js so it doesnt need to repeated */
 #main-grid {
     padding-left: 4.5em;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 1));
 }
-
 /* landing page  */
 #company {
     padding-bottom: 5em;
     color: var(--color);
 }
-
 .title {
     font-size: 2em;
     padding-top: 2em;
     color: white;
 }
-
-#owner {
-    background-color: rgba(0, 0, 0, 30%);
-    border-radius: 12px 0px 0px 12px;
-    height: 17em;
-    color: var(--color);
-}
-
-
-#main-packages {
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    display: flex;
-    padding: 2em 0em;
-    background: rgba(255, 255, 255, 26%);
-    border-radius: 12px 0px 0px 12px;
-    color: var(--color);
-}
-
-
-#secondary-packages {
-    grid-row-start: 6;
-    grid-row-end: 7;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    display: flex;
-    padding: 2em 0em;
-    background: rgba(100, 100, 100, 25%);
-    border-radius: 12px 0px 0px 12px;
-    color: var(--color);
-}
-
+/* Mobile First UI */
 @media only screen and (max-width: 560px) {
-
-    #owner {
-        color: black;
+    #main-grid {
+        grid-row-gap: 7em;
     }
-
+    #company {
+        padding: 0;
+    }
+    #company-description {
+        font-size: 20px;
+        color: black;
+        margin-top: 2em;
+    }
     .julien {
         font-size: 1.4em;
         padding: 0;
@@ -66,10 +36,8 @@
         text-decoration: none;
         color: black;
     }
-
     #owner-details {
         background: rgba(0, 0, 0, 14%);
-
         border-radius: 10px;
         color: white;
         font-size: 12px;
@@ -77,67 +45,10 @@
         width: fit-content;
         margin: 0 auto;
         margin-top: 2em;
-
     }
-
     #owner-details p {
         padding: 0;
         margin: 0;
         color: var(--color);
-
-    }
-
-    #company {
-        padding: 0;
-    }
-
-    #company-description {
-        font-size: 20px;
-        color: black;
-        margin-top: 2em;
-    }
-
-    #main-grid {
-        grid-row-gap: 7em;
-    }
-
-    #main-packages {
-        padding: 0;
-        padding: 0;
-        margin: 3em 0;
-    }
-
-    #secondary-packages {
-        padding: 0;
-    }
-}
-
-@media only screen and (min-width: 560px) {
-
-    #main-grid {
-        grid-row-gap: 5.5em;
-    }
-
-
-    #main-packages {
-        grid-row-start: 5;
-    }
-
-
-    #secondary-packages {
-        grid-row-start: 7;
-        margin-top: 5.5em;
-    }
-
-
-}
-
-@media only screen and (min-width: 1230px) {
-    #main-packages {
-        background: rgba(150, 150, 150, 80%);
-    }
-
-    #secondary-packages {
-        background: rgba(100, 100, 100, 58%);
     }
 }

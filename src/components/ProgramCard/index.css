@@ -1,6 +1,25 @@
-.project-card {
-    display: flex;
-    flex-direction: row;
-    background: rgba(255, 255, 255, .4);
-    width: fit-content;
+.program-card {
+  background-color: rgba(110, 150, 165, 63%);
+  margin: 5px;
+  border-radius: 12px;
+  text-align: center;
+}
+.program-card h4 {
+  margin: 0 4em;
+}
+.program-package-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media only screen and (max-width: 768px) {
+  .program-card {
+    width: 100%;
+  }
+  #program-title {
+    color: white;
+  }
+  .program-package-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
 }

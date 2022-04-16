@@ -1,12 +1,8 @@
 import React from 'react';
-
 // components
-
+import { ProgramCard } from '../components/ProgramCard';
 // Stylesheet
 import './index.css';
-import './button.css';
-import { ProgramCard } from '../components/ProgramCard';
-
 export const Projects = () => {
     return (
         <>
