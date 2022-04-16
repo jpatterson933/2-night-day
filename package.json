@@ -1,5 +1,5 @@
 {
-  "name": "public",
+  "name": "nightanddaybarconsulting",
   "homepage": "https://night-and-day-consulting.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +14,7 @@
     "build": "react-dotenv && react-scripts build",
     "serve": "react-dotenv && serve build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
