@@ -1,6 +1,5 @@
 {
   "name": "nightanddaybarconsulting",
-  "homepage": "https://night-and-day-consulting.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
