@@ -1,20 +1,17 @@
 #navigation-menu {
-    position: fixed;
-    margin-left: 2px;
-    padding-top: 8.5em;
+  position: fixed;
+  margin-left: 2px;
+  padding-top: 8.5em;
 }
-
 .nav-button {
-    display: flex;
-    text-align: center;
-    width: 56px;
-    box-shadow: 0 0 9px -2px black;
-    border: 1px solid black;
-    padding: 4px;
-    margin: 10px 0;
-
+  display: flex;
+  text-align: center;
+  width: 56px;
+  box-shadow: 0 0 9px -2px black;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 10px 0;
 }
-
 #llc {
   position: absolute;
   margin-top: 13em;

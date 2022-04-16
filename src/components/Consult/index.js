@@ -1,16 +1,12 @@
 import React from "react";
-
 // componenets
 import { Fade } from 'react-awesome-reveal';
-
 // style
 import './index.css';
-
 // components
 import { Consult } from "./consultingDetails";
 
 export const ConsultingCard = () => {
-
     const consultCards = Consult.map((consult) => {
         return (
             <Fade className="consult-card" key={consult.reference}>
@@ -28,10 +24,9 @@ export const ConsultingCard = () => {
             </Fade>
         )
     });
-
     return (
         <>
-            <h1 id="page-title">Consultation Packages</h1>
+            <h1 id="page-title">Night & Day Consulting Packages for any Bar Program</h1>
             <div className="consult-package-grid">
                 {consultCards}
             </div>

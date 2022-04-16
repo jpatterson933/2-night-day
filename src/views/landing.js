@@ -1,11 +1,7 @@
 import React from 'react';
 
-// components
-
 // Stylesheet
 import './index.css';
-import './button.css';
-
 export const Landing = () => {
     return (
         <div id="main-grid">
@@ -17,7 +13,6 @@ export const Landing = () => {
                     <br></br>
                     Specializations include decreasing beverage program costs by minimizing waste, inventory management,
                     staff training, space organization and daily management."</p>
-
                 <h1 className="julien">-Julien Calella</h1>
                 <div id="owner-details">
                     <p>*Owner of Night & Day Consulting*</p>

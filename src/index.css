@@ -2,22 +2,20 @@ body {
   height: 100%;
   text-align: center;
 }
-
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   text-decoration: underline;
 }
-
-  a {
+a {
   font-family: 'Zen Kurenaido', sans-serif;
   text-decoration: none;
   color: black;
 }
-
-li, p, div{
+li,
+p,
+div {
   font-family: 'Roboto Condensed', sans-serif;
   list-style-type: none;
   text-decoration: none;
 }
-
