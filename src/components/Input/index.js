@@ -12,6 +12,7 @@ export const Input = (props) => {
     });
     // on submit - this will send our form
     const onSubmit = (e) => {
+        e.preventDefault();
         // e.preventDefault(); ----we are going to allow the page to reload
         // this sends the email
         send(

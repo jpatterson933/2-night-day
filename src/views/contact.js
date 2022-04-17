@@ -5,7 +5,7 @@ import { Input } from "../components/Input";
 import './index.css';
 export const Contact = () => {
     return (
-        <div id="main-grid">
+        <div id="contact-grid">
             <h1>Want a quick consultation?</h1>
             <p>Email Here</p>
             <Input />

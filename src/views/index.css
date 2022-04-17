@@ -1,34 +1,54 @@
 :root {
     --color: rgba(255, 219, 205);
 }
+
 /* this is the background for most pages - should just have this be on the app.js so it doesnt need to repeated */
 #main-grid {
     padding-left: 4.5em;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 1));
 }
+
 /* landing page  */
 #company {
     padding-bottom: 5em;
     color: var(--color);
 }
+
 .title {
     font-size: 2em;
     padding-top: 2em;
     color: white;
 }
+
 /* Mobile First UI */
 @media only screen and (max-width: 560px) {
     #main-grid {
         grid-row-gap: 7em;
     }
+
+    #contact-grid {
+        position: fixed;
+        margin-top: 10em;
+        margin-left: 8.5em;
+        background: antiquewhite;
+        padding: 1em;
+        border-radius: 7px;
+        box-shadow: 0px 0px 8px 1px rgb(255 165 0 / 50%), 0px 0px 8px 1px rgb(255 219 205 / 50%);
+    }
+    #project-grid {
+        padding-left: 4.5em;
+    }
+
     #company {
         padding: 0;
     }
+
     #company-description {
         font-size: 20px;
         color: black;
         margin-top: 2em;
     }
+
     .julien {
         font-size: 1.4em;
         padding: 0;
@@ -36,6 +56,7 @@
         text-decoration: none;
         color: black;
     }
+
     #owner-details {
         background: rgba(0, 0, 0, 14%);
         border-radius: 10px;
@@ -46,6 +67,7 @@
         margin: 0 auto;
         margin-top: 2em;
     }
+
     #owner-details p {
         padding: 0;
         margin: 0;

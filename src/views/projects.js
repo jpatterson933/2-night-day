@@ -6,7 +6,7 @@ import './index.css';
 export const Projects = () => {
     return (
         <>
-            <div id="main-grid">
+            <div id="project-grid">
                 <ProgramCard />
             </div>
         </>
