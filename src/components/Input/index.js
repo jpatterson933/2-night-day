@@ -15,10 +15,10 @@ export const Input = (props) => {
         // e.preventDefault(); ----we are going to allow the page to reload
         // this sends the email
         send(
-            env.SERVICE_KEY,
-            env.TEMPLATE_KEY,
+            env.REACT_APP_SERVICE_KEY,
+            env.REACT_APP_TEMPLATE_KEY,
             toSend,
-            env.USER_KEY
+            env.REACT_APP_USER_KEY
         )
             .then((response) => {
                 // console.log('Success!', response.status, response.text, response);
